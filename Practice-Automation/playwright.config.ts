@@ -26,7 +26,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   timeout:30000,
   use: {
-    baseURL: 'http://10.0.0.92:8009/auth/login',
+    baseURL: 'playground.qatools.dev/products',
     headless: false,
     // screenshot: 'only-on-failure',
 
