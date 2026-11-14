@@ -26,7 +26,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   timeout:30000,
   use: {
-    baseURL: 'playground.qatools.dev/products',
+    baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',
     headless: false,
     // screenshot: 'only-on-failure',
 
